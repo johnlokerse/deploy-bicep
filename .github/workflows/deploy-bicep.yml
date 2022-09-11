@@ -1,10 +1,13 @@
 name: Create KeyVault resource
 
 on:
+  workflow_run:
+    branches:
+      - master
   push:
     branches:
       - master
-      
+
 env:
   resourceGroupName: "rg-bicep-test"
 
