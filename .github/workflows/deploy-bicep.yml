@@ -1,6 +1,7 @@
 name: Create KeyVault resource
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
