@@ -1,4 +1,4 @@
-param parKeyVaultName string = 'kv-we-workload-001'
+param parKeyVaultName string = 'kv-we-workload-002'
 param parLocation string = 'westeurope'
 param parSpnObjectId string
 
